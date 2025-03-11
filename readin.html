@@ -1,5 +1,5 @@
 <script>
-fetch("https://github.com/HEJ845/RF_JSON_DATA/blob/main/rf.json?raw=true")
+fetch("https://raw.githubusercontent.com/HEJ845/Auto_Extract_RF/refs/heads/main/hec_bio_sim_pubs.json?token=GHSAT0AAAAAAC46JNPORJWYLI4KSJUTLVWWZ6QIQDA")
     .then(response => response.json())
     .then(data => {
         displayPublications([data]);  // Wrap in array if it's a single object
